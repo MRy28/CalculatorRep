@@ -25,7 +25,9 @@ namespace Calculator
             Console.WriteLine("The result is: " + num*num1);
                         else(menu == "/")
             Console.WriteLine("The result is: " + num/num1);
-            
+
+             Console.WriteLine("Press any key to exit.");
+             
             Console.ReadKey();
         }
     }
